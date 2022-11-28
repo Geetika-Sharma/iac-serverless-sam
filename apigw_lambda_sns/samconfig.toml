@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sample-lambda-sns-python"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket"
+s3_prefix = "sample-lambda-sns-python"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
